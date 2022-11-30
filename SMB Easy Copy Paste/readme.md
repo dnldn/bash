@@ -3,10 +3,8 @@ Script to make copying and pasting to and from samba shares using smbclient a li
 
 To install:
 Download bash.sh and bash.conf to /usr/local/bin.sh
-
 Edit /etc/bash.bashrc - add following line:
 alias smb="bash /usr/local/bin/smb.sh"
-
 Restart console or source ~/.bashrc to initialize.
 
 Usage:
